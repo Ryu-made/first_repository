@@ -29,3 +29,23 @@
    - 다른 작업자를 위한 설명, 되도록 영어로 작성
 5. Remote Repository에 저장
    - git push first_remote_repo main
+
+#README.md 파일
+   - README.md 파일은 주로 프로필 혹은 Repository에 대한 설명을 나타내기 위해 작성
+   - 소스를 정리하는 데 큰 도움
+   - 마크다운(MarkDown) 문법
+   : 사용이 쉽고, 마크업 언어인 HTML 태그에 비해 간단하기 때문에 문서작성이 편리
+   : 마크다운을 지원하는 프로그램이나 사이트에서만 사용가능(HTML은 어떤 브라우저든 사용 가능)
+## Header
+   - #... h{n} : #과 글자 사이에는 띄어쓰기로 구분
+## 줄바꿈 : 엔터 2번
+## 순서가 있는 목록(ol : ordered-list) : 1,2,3,.. 숫자 나열
+## 구분선(Division Line) : - 혹은 * 3개 이상 사용
+## 코드블럭(Code Block) : 코드를 기준으로 위아래 빈 한줄씩 추가 && 코드를 기준으로 4칸 들여쓰기
+ex)
+
+    private String str;
+    privaet int count;
+
+## 하이퍼링크(HyperLink) : <>(앵글브라켓) 안에 http(s)를 포함하는 주소 입력
+<https://www.domain.net>
