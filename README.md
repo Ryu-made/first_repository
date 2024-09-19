@@ -41,6 +41,7 @@
 ## 줄바꿈 : 엔터 2번
 ## 순서가 있는 목록(ol : ordered-list) : 1,2,3,.. 숫자 나열
 ## 구분선(Division Line) : - 혹은 * 3개 이상 사용
+---
 ## 코드블럭(Code Block) : 코드를 기준으로 위아래 빈 한줄씩 추가 && 코드를 기준으로 4칸 들여쓰기
 ex)
 
@@ -48,4 +49,4 @@ ex)
     privaet int count;
 
 ## 하이퍼링크(HyperLink) : <>(앵글브라켓) 안에 http(s)를 포함하는 주소 입력
-<https://www.domain.net>
+<https://github.com>
