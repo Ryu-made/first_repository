@@ -6,14 +6,17 @@
    - 내용을 입력하고 생성 > 생성된 주소를 복사
 5. workspace 폴더 내에서"git Bash" 실행
 6. 초기설정
+
    : git config --list(내용확인)
-   : git config --global user.name 
+
+   : git config --global user.name
+
    : git config --global user.email 
    - Git을 설치하고 나서 제일 먼저 해야하는 것은 "계정정보" 설정입니다.
    - Git은 commit할 때마다, 이 정보를 사용합니다. (한 번 커밋한 정보는 변경이 불가능합니다.)
-7. 초기화
+8. 초기화
    : git init
-8. 원격 저장소 설정
+9. 원격 저장소 설정
    - git remote add [저장소 별칭] [URL]
 
 # 파일 Push
