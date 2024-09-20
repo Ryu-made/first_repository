@@ -72,7 +72,7 @@
    }
 </code>
 </pre>
-+ ex) `\`\`\java {코드블럭} \`\`\` 으로 작성 (java를 입력하면 구문강조표시 가능)
++ ex) \``` java {코드블럭} \``` 으로 작성 (java를 입력하면 구문강조표시 가능)
 ```java
    public class Class02 {
       private String str;
