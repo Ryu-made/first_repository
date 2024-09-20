@@ -12,12 +12,14 @@
    : git config --global user.name
 
    : git config --global user.email 
-   - Git을 설치하고 나서 제일 먼저 해야하는 것은 "계정정보" 설정입니다.
-   - Git은 commit할 때마다, 이 정보를 사용합니다. (한 번 커밋한 정보는 변경이 불가능합니다.)
-8. 초기화
+   * Git을 설치하고 나서 제일 먼저 해야하는 것은 "계정정보" 설정입니다.
+   * Git은 commit할 때마다, 이 정보를 사용합니다. (한 번 커밋한 정보는 변경이 불가능합니다.)
+7. 초기화
    : git init #기본 브랜치 생성
-9. 원격 저장소 설정
-   - git remote add [저장소 별칭] [URL]
+   * ".git" 폴더 생성
+      - 저장소의 환경설정 정보, 히스토리 정보 등을 가지는 폴더
+8. 원격 저장소 설정
+   * git remote add [저장소 별칭] [URL]
 
 # 파일 Push
 1. workspace 폴더 내 README.md 파일 생성 및 내용 작성
@@ -57,7 +59,7 @@
 --------
 ********
 ## 코드블럭(Code Block) : 코드를 기준으로 위아래 빈 한줄씩 추가 && 코드를 기준으로 4칸 들여쓰기
-+ ex)
++ ex) <pre><code> 태그를 이용해서 작성
 <pre>
 <code>
    public class Class01 {
@@ -70,7 +72,7 @@
    }
 </code>
 </pre>
-
++ ex) `\`\`\java {코드블럭} \`\`\` 으로 작성 (java를 입력하면 구문강조표시 가능)
 ```java
    public class Class02 {
       private String str;
@@ -82,8 +84,7 @@
    }
 ```
 ## 하이퍼링크(HyperLink) : <>(앵글브라켓) 안에 http(s)를 포함하는 주소 입력
-<https://github.com>
-<https://www.naver.com>
+<https://github.com>   <https://www.naver.com>
 ---
 ##### {2024.09.20}
 ### 깃 플로우(Git Flow, Branch)
