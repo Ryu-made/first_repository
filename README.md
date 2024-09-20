@@ -82,6 +82,7 @@
       }
    }
 ```
+---
 ## 하이퍼링크(HyperLink) : <>(앵글브라켓) 안에 http(s)를 포함하는 주소 입력
 > <https://github.com>    
 > <https://www.naver.com>
