@@ -69,7 +69,7 @@
 </pre>
 
 ```java
-   public class Class01 {
+   public class Class02 {
       private String str;
       private int count;
       public static void method() {
@@ -80,10 +80,10 @@
 ```
 ## 하이퍼링크(HyperLink) : <>(앵글브라켓) 안에 http(s)를 포함하는 주소 입력
 <https://github.com>
-
 <https://www.naver.com>
-
-## 깃 플로우(Git Flow, Branch)
+---
+**{2024.09.20}**
+### 깃 플로우(Git Flow, Branch)
 * 기본적으로 master라는 하나의 branch를 가진다.
    - 새로운 브랜치를 만들면 master 브랜치와 독립적인 작업이 가능하다
    - checkout하지 않으면 모든 작업은 master 브랜치에서 커밋(저장)한다.
