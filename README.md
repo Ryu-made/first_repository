@@ -6,12 +6,9 @@
    * 내용을 입력하고 생성 > 생성된 주소를 복사
 5. workspace 폴더 내에서"git Bash" 실행
 6. 초기설정
-
-   : git config --list(내용확인)
-
-   : git config --global user.name
-
-   : git config --global user.email 
+   1. git config --list(내용확인)
+   2. git config --global user.name
+   3. git config --global user.email 
    * Git을 설치하고 나서 제일 먼저 해야하는 것은 "계정정보" 설정입니다.
    * Git은 commit할 때마다, 이 정보를 사용합니다. (한 번 커밋한 정보는 변경이 불가능합니다.)
 7. 초기화
@@ -34,18 +31,20 @@
    - 다른 작업자를 위한 설명, 되도록 영어로 작성
 5. Remote Repository에 저장
    - git push first_remote_repo main
-
 ## README.md 파일
    - README.md 파일은 주로 프로필 혹은 Repository에 대한 설명을 나타내기 위해 작성
    - 소스를 정리하는 데 큰 도움
    - 마크다운(MarkDown) 문법
-   : 사용이 쉽고, 마크업 언어인 HTML 태그에 비해 간단하기 때문에 문서작성이 편리
-   : 마크다운을 지원하는 프로그램이나 사이트에서만 사용가능(HTML은 어떤 브라우저든 사용 가능)
+      + 사용이 쉽고, 마크업 언어인 HTML 태그에 비해 간단하기 때문에 문서작성이 편리
+      + 마크다운을 지원하는 프로그램이나 사이트에서만 사용가능(HTML은 어떤 브라우저든 사용 가능)
 ## Header
    * #... h{n} : #과 글자 사이에는 띄어쓰기로 구분
+   > # 제목1
    > ## 제목2
    > ### 제목3
    > #### 제목4
+   > ##### 제목5
+   > ###### 제목6
 ## 줄바꿈 : 엔터 2번
 ## 순서가 있는 목록(ol : ordered-list) : 1,2,3,.. 숫자 나열
 1. first statement
@@ -72,7 +71,7 @@
    }
 </code>
 </pre>
-+ ex) \``` java {코드블럭} \``` 으로 작성 (java를 입력하면 구문강조표시 가능)
++ ex) \``` java {코드블럭} \``` 으로 작성 (java등의 언어명을 입력하면 구문강조표시 가능)
 ```java
    public class Class02 {
       private String str;
@@ -84,7 +83,9 @@
    }
 ```
 ## 하이퍼링크(HyperLink) : <>(앵글브라켓) 안에 http(s)를 포함하는 주소 입력
-<https://github.com>   <https://www.naver.com>
+<https://github.com>
+
+<https://www.naver.com>
 ---
 ##### {2024.09.20}
 ### 깃 플로우(Git Flow, Branch)
