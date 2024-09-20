@@ -59,7 +59,7 @@
 --------
 ********
 ## 코드블럭(Code Block) : 코드를 기준으로 위아래 빈 한줄씩 추가 && 코드를 기준으로 4칸 들여쓰기
-+ ex) <pre><code> 태그를 이용해서 작성
++ ex) \<pre>\<code> 태그를 이용해서 작성
 <pre>
 <code>
    public class Class01 {
