@@ -33,7 +33,7 @@
 5. Remote Repository에 저장
    - git push first_remote_repo main
 
-#README.md 파일
+## README.md 파일
    - README.md 파일은 주로 프로필 혹은 Repository에 대한 설명을 나타내기 위해 작성
    - 소스를 정리하는 데 큰 도움
    - 마크다운(MarkDown) 문법
@@ -41,6 +41,9 @@
    : 마크다운을 지원하는 프로그램이나 사이트에서만 사용가능(HTML은 어떤 브라우저든 사용 가능)
 ## Header
    * #... h{n} : #과 글자 사이에는 띄어쓰기로 구분
+   > ## 제목2
+   > ### 제목3
+   > #### 제목4
 ## 줄바꿈 : 엔터 2번
 ## 순서가 있는 목록(ol : ordered-list) : 1,2,3,.. 숫자 나열
 1. first statement
@@ -82,7 +85,7 @@
 <https://github.com>
 <https://www.naver.com>
 ---
-**{2024.09.20}**
+##### {2024.09.20}
 ### 깃 플로우(Git Flow, Branch)
 * 기본적으로 master라는 하나의 branch를 가진다.
    - 새로운 브랜치를 만들면 master 브랜치와 독립적인 작업이 가능하다
